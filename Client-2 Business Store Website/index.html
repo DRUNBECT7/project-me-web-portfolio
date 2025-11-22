@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toko Grosir Piti By Putriani</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body { background-color: #f8f9fa; }
+    .navbar { background-color: #004aad; }
+    .navbar-brand, .nav-link { color: white !important; font-weight: 500; }
+    .hero {
+      background-image: url('https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero h1 {
+      background: rgba(0,0,0,0.55);
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 10px;
+    }
+    .product-card img { height: 180px; object-fit: cover; }
+    footer {
+      background-color: #004aad;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">Toko Grosir Piti</a>
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="home.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="profile.html">Profilk</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Cari produk...">
+        <button class="btn btn-warning" type="submit">Cari</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SLIDESHOW -->
+<div class="hero text-center">
+  <h1>Selamat Datang di Toko Grosir Piti By Putriani</h1>
+</div>
+
+<!-- PRODUK -->
+<section class="container py-5" id="produk">
+  <h2 class="text-center fw-bold mb-4">Daftar Produk Grosir</h2>
+  <div class="row g-4">
+
+    <!-- PRODUK 1 -->
+    <div class="col-md-4">
+      <div class="card product-card shadow-sm">
+        <img src="https://images.pexels.com/photos/5632399/pexels-photo-5632399.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Beras Premium 25Kg</h5>
+          <p class="text-muted">Harga Grosir Mulai Rp 265.000</p>
+          <button class="btn btn-primary">Beli Sekarang</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUK 2 -->
+    <div class="col-md-4">
+      <div class="card product-card shadow-sm">
+        <img src="https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Minyak Goreng 1L</h5>
+          <p class="text-muted">Harga Grosir Mulai Rp 14.500 / botol</p>
+          <button class="btn btn-primary">Beli Sekarang</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUK 3 -->
+    <div class="col-md-4">
+      <div class="card product-card shadow-sm">
+        <img src="https://images.pexels.com/photos/5632416/pexels-photo-5632416.jpeg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Gula Pasir 1Kg</h5>
+          <p class="text-muted">Harga Grosir Mulai Rp 15.000 / bungkus</p>
+          <button class="btn btn-primary">Beli Sekarang</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section class="text-center py-5" id="kontak">
+  <h3 class="fw-bold mb-3">Ingin Belanja Grosir / Kerja Sama?</h3>
+  <p class="mb-4">Hubungi kami untuk harga reseller & dropship</p>
+  <a href="https://wa.me/628**********" class="btn btn-success btn-lg">📩 Hubungi WhatsApp</a>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-3 text-center">
+  <p class="mb-0">© 2025 — Toko Grosir Piti By Putriani. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
